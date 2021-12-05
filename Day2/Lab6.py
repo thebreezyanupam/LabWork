@@ -7,9 +7,9 @@
 # desks. The second group has 21 students, so they can get by with no fewer than 11 desks.
 # 11 desks are also enough for the third group of 22 students. So, we need 32 desks in total.
 
-class1=int(input("Enter the number of students in 1st class "))
-class2=int(input("Enter the number of studnets in 2nd class "))
-class3=int(input("Enter the number of students in 3rd class "))
-table1 = (class1 //2 + class2 //2 + class3 // 2)
-table2=  (class1 % 2 + class2 % 2 + class3 % 2)
+a=int(input("Enter the number of students in 1st class "))
+b=int(input("Enter the number of studnets in 2nd class "))
+c=int(input("Enter the number of students in 3rd class "))
+table1 = (a //2 + b //2 + c // 2)
+table2=  (a % 2 + b % 2 + c % 2)
 print("So,we need {} desks in total".format(table1+table2))

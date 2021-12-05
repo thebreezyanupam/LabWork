@@ -4,8 +4,8 @@
 # get? How many apples will remain in the basket? The program reads the numbers N and
 # K. It should print the two answers for the questions above.
 
-noofstudent = int(input("enter the number of students"))
-noofapple = int(input("enter the number of apples"))
-print(noofapple // noofstudent)
-print(noofapple % noofstudent)
+student = int(input("enter the number of students"))
+apple = int(input("enter the number of apples"))
+print(apple // student)
+print(apple % student)
 
