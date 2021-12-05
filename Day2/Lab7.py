@@ -5,22 +5,22 @@
 
 distance1 = 4
 speed1 =25
-#bus stops at 10 places and spent 2 minutes
-Stop1= 10*2
-timefor1distance = 1/Stop1
-totaltime=Stop1+timefor1distance
-print("the total time to reach university by bus {}".format(totaltime))
-# jogging walla
-speed2= 7
-time1= 1/speed2
-time_1=time1*60
-speed3=15
-time2 = 2/speed3
-time_2 = time2*60
-speed4 = 7
-time3 = 1/speed4
-time_3 = time3*60
-total_time1=time_1+time_2+time_3
-print("the total time for walking is {}".format(total_time1))
-if(total_time1 > totaltime):
+T1 =((distance1/ speed1) * 60)
+#since the bus spends two minutes in each ten steps so 2*10
+T2 = 20
+Total1 = T1 + T2
+print(f"total time taken by bus is {Total1}")
+# when jogging
+Jog1= 7
+time1= 1/Jog1
+time2=time1*60
+Jog2=15
+time2 = 2/Jog2
+time3 = time2*60
+Jog3 = 7
+time3 = 1/Jog3
+time4 = time3*60
+TotalTime=time2+time3+time4
+print("the total time for walking is {}".format(TotalTime))
+if(TotalTime > Total1):
     print("so, jogging is faster dont use bus")
