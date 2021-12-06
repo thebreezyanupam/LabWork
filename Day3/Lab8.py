@@ -1,6 +1,8 @@
 #Given a n-digit number. Find the sum of its digits.
-a=int(input("Enter a number"))
-first_digit = a//10
-second_digit=a%10
-total=first_digit + second_digit
+number=int(input("enter a number"))
+total=0
+while number>0:
+    digits=number%10
+    total=total+digits
+    number=number//10
 print("The sum of digits of the number entered is", total)
